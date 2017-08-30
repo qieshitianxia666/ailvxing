@@ -1,0 +1,93 @@
+#content{
+   background: rgba(251, 208, 215, 0.7);
+}
+ul.yuan{
+
+    width: 980px;
+    float: left;
+    /*background: url(../img/top11bg.jpg) no-repeat;*/
+}
+ ul.yuan li{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #efefef;
+    margin: 48px 0px 50px 0px;
+    position: relative;
+     float: left;
+}
+ ul.yuan li::before, ul.yuan li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden;
+    transition: all 0.6s;
+}
+ ul.yuan li::before{
+    transform: rotateY(0deg);
+}
+ ul.yuan li::after{
+    transform: rotateY(180deg);
+}
+ ul.yuan li:hover::before{
+    transform: rotateY(180deg);
+}
+ ul.yuan li:hover::after{
+    transform: rotateY(0deg);
+}
+ ul.yuan li.one::before{
+    background: url(../images/zhuan1.png) left top;
+}
+ ul.yuan li.one::after{
+    background: url(../images/zhuan1.png) right top;
+}
+ ul.yuan li.two::before{
+    background: url(../images/zhuan2.png) left top;
+}
+ ul.yuan li.two::after{
+    background: url(../images/zhuan2.png) right top;
+}
+ ul.yuan li.three::before{
+    background: url(../images/zhuan3.png) left top;
+}
+ ul.yuan li.three::after{
+    background: url(../images/zhuan3.png) right top;
+}
+ ul.yuan li.four::before{
+    background: url(../images/zhuan4.png) left top;
+}
+ ul.yuan li.four::after{
+    background: url(../images/zhuan4.png) right top;
+}
+ ul.yuan li.five::before{
+    background: url(../images/zhuan5.png) left top;
+}
+ ul.yuan li.five::after{
+    background: url(../images/zhuan5.png) right top;
+}
+ul.yuan .hr{
+    font-family: secondfont;
+    line-height: 50px;
+    font-size: 25px;
+    letter-spacing: 30px;
+    text-indent: 50px;
+    width: 980px;
+    height: 50px;
+    background: url("../images/zhuan-hrbg.jpg") repeat-x;
+}
+.yuan .tp{
+    padding: 23px 0 5px 7px ;
+
+    float: left;
+}
+.yuan .tp img{
+    padding-left: 4px;
+}
+.yuan .tp img:hover{
+    opacity: 0.9;
+    box-shadow:  3px 3px 3px yellowgreen;
+}

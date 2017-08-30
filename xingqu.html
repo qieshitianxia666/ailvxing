@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>爱旅行 - 爱生活，爱旅行！</title>
+    <link rel="stylesheet" type="text/css" href="./css/init.css" />
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/article.css" />
+    <!--tab栏CSS样式-->
+    <style>
+
+
+        .tabs {
+            width: 730px;
+            margin: 0px auto;
+
+
+            box-sizing: border-box;
+        }
+
+        .tabs nav {
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            overflow: hidden;
+            background-color: #fff;
+            display: flex;
+        }
+
+        nav a {
+            display: block;
+            width: 178px;
+            border-right: 1px solid #FFF;
+            color: #000;
+            text-decoration: none;
+        }
+
+        nav a:last-child {
+            border-right: 0 none;
+        }
+
+        nav a.active {
+            background-color: rgb(236,162,221);
+        }
+
+        .cont {
+            overflow: hidden;
+            display: none;
+            padding-bottom: 10px;
+        }
+
+        .cont ol {
+
+            line-height: 30px;
+            position: relative;
+        }
+        .cont ol li{
+            float: left;
+
+        }
+        .cont ol li:hover{
+            opacity: 0.8;
+            box-shadow: 4px 4px 3px rgb(236,162,221);
+        }
+        .cont ol li.row2{
+            margin-top: 40px;
+
+        }
+        .cont ol li.mar-l{
+            margin-left: 15px;
+
+        }
+        .cont ol p{
+            position: absolute;
+            left: 0px;
+            top: 215px;
+
+            font-family: secondfont;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <div class="topnav">
+            <div class="w980">
+                <ul class="l">
+                    <li><a href="#">客户端</a>|</li>
+                    <li><a href="#">手机版</a>|</li>
+                    <li><a href="#">收集工具</a></li>
+                </ul>
+                <div class="info">
+                    <ul>
+                        <li><a href="./register.html">注册</a></li>
+                        <li><a href="./login.html">登陆</a></li>
+                        <li><a href="#" class="msg">&nbsp;</a></li>
+                        <li><a href="#" class="mail">&nbsp;</a></li>
+                        <li><img src="./upload/photos/admin.jpg" /><a href="#">吾爱旅行</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="w980">
+                <div class="logo l"><a href="./index.html"></a></div>
+                <div class="menu l">
+                    <ul>
+                        <li>
+                            <a href="guangbo.html" class="toplist">广播</a>
+                            <a href="./article_1.html">心情</a>
+                        </li>
+                        <li>
+                            <a href="./faxian.html" class="toplist">发现</a>
+                            <a href="./article_list_1.html">文章</a>
+                        </li>
+                        <li>
+                            <a href="zhuanji.html" class="toplist">专辑</a>
+                        </li>
+                        <li class="lastli">
+                            <a href="./xingqu.html" >四季物语</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="search r">
+                    <form action="" method="">
+                        <input type="text" name="" value="" /><button type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="line" id="line"></div>
+    </div>
+    <!-- 主体 -->
+    <div id="content">
+        <div class="banner"><a href="#"><img src="./upload/x-ban.jpg" width="980" /></a></div>
+        <div class="main">
+       
+            <div class="tabs">
+                <nav>
+                    <a href="javascript:;" data-cont="local">春临桃李开</a>
+                    <a href="javascript:;" data-cont="global">夏出水莲洁</a>
+                    <a href="javascript:;" data-cont="sports">秋雨润菊瓣</a>
+                    <a href="javascript:;" data-cont="funny">冬来雪梅白</a>
+                </nav>
+                <section class="cont" id="local" >
+                    <ol>
+                        <li><img src="images/tao3.jpg" alt=""></li>
+                        <li class="mar-l"><img src="images/tao4.jpg" alt=""></li>
+                        <p style="padding-left: 165px;font-size: 25px" >&nbsp;年年岁岁花相似，岁岁年年人不同</p>
+                        <li class="row2"><img src="images/tao1.jpg" alt=""></li>
+                        <li class="row2 mar-l"><img src="images/tao2.jpg" alt=""></li>
+                    </ol>
+                </section>
+                <section class="cont" id="global">
+                    <ol>
+                        <li><img src="images/lian1.jpg" alt=""></li>
+                        <li class="mar-l"><img src="images/lian2.jpg" alt=""></li>
+                        <p style="padding-left: 165px;font-size: 25px">&nbsp;&nbsp;&nbsp;出淤泥而不染，濯清涟而不妖</p>
+                        <li class="row2"><img src="images/lian3.jpg" alt=""></li>
+                        <li class="row2 mar-l"><img src="images/lian4.jpg" alt=""></li>
+                    </ol>
+                </section>
+                <section class="cont" id="sports">
+                    <ol>
+                        <li><img src="images/qiu1.jpg" alt=""></li>
+                        <li class="mar-l"><img src="images/qiu2.jpg" alt=""></li>
+                        <p style="padding-left: 165px;font-size: 25px">&nbsp;一往情深深几许，深山西照深秋雨</p>
+                        <li class="row2"><img src="images/qiu3.jpg" alt=""></li>
+                        <li class="row2 mar-l"><img src="images/qiu4.jpg" alt=""></li>
+                    </ol>
+                </section>
+                <section class="cont" id="funny">
+                    <ol>
+                        <li><img src="images/dong1.jpg" alt=""></li>
+                        <li class="mar-l"><img src="images/dong2.jpg" alt=""></li>
+                        <p style="padding-left: 165px;font-size: 25px">&nbsp;不经一番寒彻骨，怎得梅花扑鼻香</p>
+                        <li class="row2"><img src="images/dong3.jpg" alt=""></li>
+                        <li class="row2 mar-l"><img src="images/dong4.jpg" alt=""></li>
+                    </ol>
+                </section>
+            </div>
+            <div class="share">
+                <!-- JiaThis Button BEGIN -->
+                <div class="jiathis_style">
+                    <span class="jiathis_txt">分享到：</span>
+                    <a class="jiathis_button_tools_1"></a>
+                    <a class="jiathis_button_tools_2"></a>
+                    <a class="jiathis_button_tools_3"></a>
+                    <a class="jiathis_button_tools_4"></a>
+                    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+                    <a class="jiathis_counter_style"></a>
+                </div>
+                <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1377229801233346" charset="utf-8"></script>
+                <!-- JiaThis Button END -->
+            </div>
+            <div class="digbox"><div class="good"></div><div class="bad"></div></div>
+        </div>
+        <div class="sider">
+            <div id="wrap">
+                <div class="fixedwrap">
+                    <div class="snwrap">
+                        <ul>
+                            <li><a href="#">收藏</a></li>
+                            <li><a href="#">喜欢</a></li>
+                            <li class="noborder"><a href="#">评论</a></li>
+                        </ul>
+                    </div>
+                    <div class="author">
+                        <img src="./upload/photos/admin.jpg" width="40" height="40"/>
+                        <h3>吾爱旅行</h3>
+                        <p><span>积分:4312</span><span>等级:LV4</span></p>
+                    </div>
+                    <div class="sharebtn">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style_32x32">
+                            <a class="jiathis_button_qzone"></a>
+                            <a class="jiathis_button_tsina"></a>
+                            <a class="jiathis_button_tqq"></a>
+                            <a class="jiathis_button_weixin"></a>
+                            <a class="jiathis_button_renren"></a>
+                        </div>
+                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1377229801233346" charset="utf-8"></script>
+                        <!-- JiaThis Button END -->                
+                    </div>
+                </div>
+            </div>
+            <div class="hotarc">
+                <div class="title"><h3>兴趣推荐</h3></div>
+                <ul>
+                    <li><a href="#">那些年,我们一起度过的时光</a></li>
+                    <li><a href="#">那些年,我们一起度过的时光</a></li>
+                    <li><a href="#">那些年,我们一起度过的时光</a></li>
+                    <li><a href="#">那些年,我们一起度过的时光</a></li>
+                    <li><a href="#">那些年,我们一起度过的时光</a></li>
+                    <li><a href="#">那些年,我们一起度过的时光</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div id="footer">
+        <div class="line"></div>
+        <div class="copy">
+            <p>版权所有 爱旅行 www.kunpengailvxing.cc</p>
+            <p>山东省济南市长清区齐鲁工业大学齐风园14号楼</p>
+        </div>
+    </div>
+    <div class="tools">
+        <a href="javascript:void(0)" class="gotop"><i></i>返回顶部</a>
+        <a href="javascript:void(0)" class="suggest"><i></i>意见反馈</a>
+    </div>
+    <div class="sugform">
+        <div class="sugtitle"><p>您对<span class="curpage">"我做的页面"</span>满意吗?欢迎提出建议</p><a href="javascript:void(0)" class="close">&nbsp;</a></div>
+        <div class="check">
+        </div>
+    </div>
+    <audio src="music/rushi.mp3" autoplay loop="loop"></audio>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/functions.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/snowfall.jquery.js"></script>
+    <script>
+        $(document).snowfall({flakeCount :10, maxSpeed :6});
+        $(document).snowfall('clear');
+        $(document).snowfall({image :"images/flake1.png", minSize: 10, maxSize:25});
+    </script>
+    <script>
+        // 目标： 默认显示一个 当前的样式
+        //  点击导航，实现切换
+        //  key 表示的当前显示的是第几个
+
+        (function(key){
+//         获取所有的导航
+            var navs=document.querySelectorAll('nav a');
+//         遍历 给导航 绑定事件，并且添加当前样式
+            for(var i=0;i<navs.length;i++){
+//            如果是用户指定的当前样式
+                if(key==i){
+                    navs[i].classList.add('active');
+//              拿到要显示内容section的id
+                    var secId=navs[i].dataset['cont'];
+//               获取对应的section标签
+                    document.querySelector('#'+secId).style.display='block';
+                }
+
+//            给每一个导航绑定点击事件
+                navs[i].onclick=function(){
+                    // 排他
+                    // 之前有active样式的清除, 之前显示的section 隐藏
+                    var  currentNav=document.querySelector('.active');
+//                获取对应的内容区域 ，让其隐藏
+                    var currentId=currentNav.dataset['cont'];
+//                去掉导航的active 样式
+                    currentNav.classList.remove('active');
+//                对应的内容区域
+                    document.querySelector('#'+currentId).style.display='none';
+
+                    //   突出显示自己 导航添加样式  对应的section 显示
+//                给自己添加active样式
+                    this.classList.add('active');
+//                对应的section模块显示出来
+                    var myId=this.dataset['cont'];
+                    document.querySelector('#'+myId).style.display='block';
+                }
+            }
+
+        })(0);
+
+
+
+    </script>
+</body>
+</html>

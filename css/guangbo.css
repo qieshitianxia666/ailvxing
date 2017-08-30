@@ -1,0 +1,162 @@
+
+#content .banner{
+    height: 150px;
+    width: 925px;
+    padding-left: 55px;
+    position: relative;
+}
+#content .banner p{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: #1f1f1f;
+    font-size: 20px;
+    font-family: secondfont;
+}
+#content .left{
+    width: 670px;
+    padding: 20px;
+
+    float: left;
+
+}
+#content .left .tit{
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    height: 25px;
+    text-indent: 30px;
+}
+#content .left form input.in1{
+    display: block;
+    width: 600px;
+    height: 70px;
+    border: 2px solid #d8d8d8;
+    margin: 0px auto;
+}
+#content .left form input.in2{
+    display: block;
+    float: right;
+    width: 70px;
+    height: 35px;
+    margin: 10px 60px;
+    border-radius: 10px;
+    background: yellowgreen;
+}
+#content .left form span{
+    display: block;
+    padding-left: 30px;
+}
+#content .left form span a{
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+#content .left form span a.a1{
+     background: url("../images/guang-icon1.png") no-repeat 3px 9px;
+}
+#content .left form span a.a2{
+    background: url("../images/guang-icon2.png") no-repeat 3px 7px;
+}
+#content .left form span a.a3{
+     background: url("../images/guang-icon3.png") no-repeat 5px 11px;
+}
+#content .left .guang{
+    width: 670px;
+    float: left;
+}
+#content .left h2{
+    width: 600px ;
+    margin: 0px auto;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #d8d8d8;
+    text-indent: 10px;
+}
+#content .left .guang ul.zhanshi{
+    width: 600px;
+    margin: 10px auto;
+    background: #fff;
+}
+#content .left .guang ul.zhanshi li{
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+#content .left .guang ul.zhanshi div.userpic{
+    padding-top: 20px;
+   float: left;
+}
+#content .left .guang ul.zhanshi div.userpic span{
+    display: block;
+    padding-top: 5px;
+    color: yellowgreen;
+}
+#content .left .guang ul.zhanshi div.text{
+    width: 350px;
+    float: left;
+    padding: 30px 20px;
+    font-size: 15px;
+    font-family: secondfont;
+    line-height: 30px;
+}
+#content .left .guang ul.zhanshi li span.zan{
+    margin-top: 5px;
+    float: right;
+}
+#content .left .guang ul.zhanshi li img{
+    box-shadow: 3px 3px 3px rgb(229,167,170);
+}
+#content .left .guang ul.zhanshi li img:hover{
+    opacity: 0.9;
+}
+#content .left .guang ul.zhanshi li span.zan a{
+    padding:0px 10px;
+    border-right: 1px solid darkgray;
+}
+#content .left .guang ul.zhanshi li span.zan a img{
+    padding-bottom: 4px;
+    box-shadow: none;
+}
+#content .sider{
+    width: 250px;
+    float: right;
+    margin-top: 27px;
+}
+#content .sider .xinxi{
+
+    background: url("../images/guang-ban-1.jpg") no-repeat;
+}
+#content .sider .xinxi .touxiang{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 26px;
+}
+
+#content .sider .xinxi .touxiang a.mingzi{
+    display: block;
+    padding-right: 43px;
+    background: url("../images/touxiang-1.jpg") no-repeat 112px 1px ;
+}
+#content .sider .xinxi .touxiang ul{
+    margin-left: 2px;
+}
+#content .sider .xinxi .touxiang ul li{
+    width: 30px;
+
+    padding: 5px 15px;
+    float: left;
+    border-right: 1px solid darkgray;
+}
+#content .sider .xinxi .touxiang ul li.li3{
+    border: none;
+}
+#content .sider .xinxi .touxiang ul li a{
+    display: block;
+    font-weight: 800;
+}
+#content .sider .hotuser{
+    height: auto;
+}
